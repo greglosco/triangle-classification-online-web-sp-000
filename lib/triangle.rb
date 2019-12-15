@@ -11,7 +11,7 @@ class Triangle
   end 
   
   def valid_triangle
-    triangle = []
+    triangle = [(a+b >c), ()]
   end 
   
   class TriangleError < StandardError
