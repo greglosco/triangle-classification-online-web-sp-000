@@ -7,7 +7,8 @@ class Triangle
   end
   
   def kind 
-    
+    valid_triangle
+    if a == b || b == c 
   end 
   
   def valid_triangle
