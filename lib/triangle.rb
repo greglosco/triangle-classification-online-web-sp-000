@@ -10,10 +10,10 @@ class Triangle
   
   def kind 
     valid_triangle
-    if a == b || b == c || c == a 
-      :isosceles
-    elsif a == b && b == c 
+    if a == b && b == c 
       :equilateral
+    elsif a == b || b == c || c == a 
+      :isosceles
     else 
       :scalene
     end 
