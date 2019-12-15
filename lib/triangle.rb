@@ -10,6 +10,10 @@ class Triangle
     
   end 
   
+  def valid_triangle
+    
+  end 
+  
   class TriangleError < StandardError
   end 
 
