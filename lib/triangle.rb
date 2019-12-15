@@ -8,7 +8,12 @@ class Triangle
   
   def kind 
     valid_triangle
-    if a == b || b == c 
+    if a == b || b == c || c == a 
+      :isoceles
+    elsif a == b && b == c 
+      :equilateral
+    else 
+      :scalene
   end 
   
   def valid_triangle
